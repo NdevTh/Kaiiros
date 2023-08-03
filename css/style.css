@@ -33,18 +33,20 @@ body {
   /* Styliser le contenu du footer */
   .footer {
     color: #fff; /* Couleur du texte du footer */
-
     display: flex;
     background: #555;
+    display: flex;
+    justify-content: center;
 
   }
   
   /* Styliser les bulles */
   .bubbles {
-    width: 33%;
+    width: 100vh;
     height: 10vh; /* Hauteur du conteneur de bulles */
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    justify-items: center;
 
   }
   
@@ -53,8 +55,8 @@ body {
     height: 15px;
     background-color: #ED5565; /* Couleur de fond de la bulle */
     border-radius: 50%;
-    animation: bubble-float 5s ease-in-out infinite; /*  Animation de flottement */
-    margin: 5px; /* Espacement entre les bulles */
+    animation: bubble-float 4s ease-in-out infinite; /*  Animation de flottement */
+  
   }
   
   /* Animation pour le flottement des bulles */
@@ -63,7 +65,7 @@ body {
       transform: translateY(80); /* Position initiale */
     }
     50% {
-      transform: translateY(80px); /* Position haute pendant l'animation */
+      transform: translateY(8vh); /* Position haute pendant l'animation */
     }
   }
   
