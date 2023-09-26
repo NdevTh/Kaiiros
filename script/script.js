@@ -24,6 +24,6 @@ class BubblesCreator {
   
   
     // Créer 12 bulles avec un délai initial de 1 seconde
-    bubblesCreator.createBubbles(12, 1);
+    bubblesCreator.createBubbles(8, 1);
   });
   
