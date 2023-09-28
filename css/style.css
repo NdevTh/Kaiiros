@@ -1,8 +1,15 @@
 /* *{
 box-shadow: 0 0 1px red inset;
 } */
+
+body, html {
+  height: 100%;
+}
+
 body {
-      font-family: Arial, sans-serif;
+      background-image: url('./img/aHelpingHand.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
       background-color: #f0f0f0;
       text-align: center;
       padding: 50px;
