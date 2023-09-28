@@ -16,9 +16,4 @@ class BubblesCreator {
     }
   }
   
-  document.addEventListener("DOMContentLoaded", function () {
-    const bubblesCreator = new BubblesCreator("bubbles-container");
-  
-   // Créer 12 bulles avec un délai initial de 1 seconde
-    bubblesCreator.createBubbles(9, 1);
-  });
+export default BubblesCreator;
