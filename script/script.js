@@ -19,16 +19,11 @@ class BubblesCreator {
   // Appeler la fonction pour créer les bulles lors du chargement de la page
   document.addEventListener("DOMContentLoaded", function () {
     const bubblesCreator = new BubblesCreator("bubbles-container");
-  
-    // Créer 20 bulles sans délai initial
-  
-  
-    // Créer 12 bulles avec un délai initial de 1 seconde
-    bubblesCreator.createBubbles(8, 1);
+
+   // Créer 12 bulles avec un délai initial de 1 seconde
+    bubblesCreator.createBubbles(9, 1);
   });
   
-
-  // script.js
 
 // Date de fin du compte à rebours (exemple : 1 janvier 2024)
 let dateEnd = new Date("October 1, 2023 00:00:00").getTime();
