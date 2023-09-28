@@ -54,3 +54,4 @@ function mettreAJourCompteARebours() {
 let updateInterval = setInterval(mettreAJourCompteARebours, 1000);
 
 // compter
+export default BubblesCreator;
