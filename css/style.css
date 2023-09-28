@@ -5,9 +5,10 @@ box-shadow: 0 0 1px red inset;
 body, html {
   height: 100%;
 }
+ /* eiozjuf erijgioer  */
 
 body {
-      background-image: url('./img/aHelpingHand.jpg');
+      background-image: url('/img/aHelpingHand.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-color: #f0f0f0;
@@ -74,5 +75,9 @@ body {
     50% {
       transform: translateY(8vh); /* Position haute pendant l'animation */
     }
+  }
+
+  .time{
+  
   }
   
