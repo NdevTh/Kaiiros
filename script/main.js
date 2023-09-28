@@ -4,4 +4,4 @@ import CompteRebours from './CompteRebours.js';// Appeler la fonction pour crée
 const bubblesCreator = new BubblesCreator("bubbles-container");
 bubblesCreator.createBubbles(9, 1);
 
-const compteARebours = new CompteRebours("October 1 , 2023 00:00:00");
+const compteARebours = new CompteRebours("October 2 , 2023 00:00:00");
