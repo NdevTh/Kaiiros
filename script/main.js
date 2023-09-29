@@ -4,4 +4,4 @@ import CountDown from './CountDown.js';// Appeler la fonction pour créer les bu
 const bubblesCreator = new BubblesCreator("bubbles-container");
 bubblesCreator.createBubbles(9, 1);
 
-const countDown = new CountDown("October 28 , 2023 00:00:00");
+const countDown = new CountDown("October 15 , 2023 00:00:00");
