@@ -42,7 +42,6 @@ body {
   .footer {
     color: #fff; /* Couleur du texte du footer */
     display: flex;
-    background: #555;
     display: flex;
     justify-content: center;
 
@@ -76,8 +75,36 @@ body {
       transform: translateY(8vh); /* Position haute pendant l'animation */
     }
   }
+/* Style countdown */
+#compteARebours {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
 
-  .time{
-  
-  }
-  
+.unit {
+  background-color: #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 0 10px;
+  padding: 20px;
+  text-align: center;
+}
+
+.number {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #777;
+}
