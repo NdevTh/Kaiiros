@@ -1,8 +1,12 @@
 class CountDown {
     constructor(dateEnd) {
-        this.dateEnd = new Date(dateEnd).getTime();
-        this.updateInterval = setInterval(this.mettreAJour.bind(this), 1000);
+        if (dateEnd) {
+            this.dateEnd = new Date(dateEnd).getTime();
+            this.updateInterval = setInterval(this.mettreAJour.bind(this), 1000);
+        }
+        this.now = new Date();
     }
+
 
     mettreAJour() {
         let now = new Date().getTime();
@@ -27,6 +31,14 @@ class CountDown {
             clearInterval(this.updateInterval);
             document.getElementById("compteARebours").textContent = "Terminé!";
         }
+    }
+// Diplay the date today
+    Today =()=>{
+        let now = new Date();
+        document.getElementById("year").textContent = now.getFullYear();
+        document.getElementById("month").textContent = String(now.getMonth() + 1).padStart(2, '0');
+        document.getElementById("day").textContent = String(now.getDate()).padStart(2, '0');
+        return now.toISOString().split('T')[0];
     }
 }
 

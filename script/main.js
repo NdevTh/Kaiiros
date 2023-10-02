@@ -4,4 +4,13 @@ import CountDown from './CountDown.js';// Appeler la fonction pour créer les bu
 const bubblesCreator = new BubblesCreator("bubbles-container");
 bubblesCreator.createBubbles(9, 1);
 
-const countDown = new CountDown("October 15 , 2023 00:00:00");
+const countDown = new CountDown("January 01 2024 00:00:00");
+
+const dateNow = new CountDown();
+dateNow.Today(Date);
+
+// console.log(dateNow.Today());
+
+// code AIconst hoursCard = document.querySelector(".hours .card");
+
+    

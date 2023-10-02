@@ -1,0 +1,118 @@
+/* *{
+box-shadow: 0 0 1px red inset;
+} */
+
+body, html {
+    height: 100%;
+  }
+   
+  
+  body {
+        background-image: url('/img/aHelpingHand.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: #f0f0f0;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
+  
+  
+      p {
+        font-size: 18px;
+        color: #555;
+      }
+  
+      img {
+        max-width: 35vh;
+        height: auto;
+        
+      }
+  
+    
+    /* Styliser le contenu du footer */
+    .footer {
+      color: #fff; /* Couleur du texte du footer */
+      display: flex;
+      display: flex;
+      justify-content: center;
+  
+    }
+    
+    /* Styliser les bulles */
+    .bubbles {
+      width: 100vh;
+      height: 10vh; /* Hauteur du conteneur de bulles */
+      display: flex;
+      justify-content: space-around;
+      justify-items: center;
+  
+    }
+    
+    .bubble {
+      width:15px;
+      height: 15px;
+      background-color: #ED5565; /* Couleur de fond de la bulle */
+      border-radius: 50%;
+      animation: bubble-float 4s ease-in-out infinite; /*  Animation de flottement */
+    
+    }
+    
+    /* Animation pour le flottement des bulles */
+    @keyframes bubble-float {
+      0%, 100% {
+        transform: translateY(80); /* Position initiale */
+      }
+      50% {
+        transform: translateY(8vh); /* Position haute pendant l'animation */
+      }
+    }
+  /* Style countdown */
+  #compteARebours {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    /* padding: 30px; */
+    border-radius: 8px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .unit {
+    background-color: #fefefe;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 0 5px;
+    padding: 10∏px;
+    text-align: center;
+  }
+  
+  .number {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #777;
+  }
+  
+  
+  #today{
+  display: flex;
+  justify-content: center;
+  }
+  h2{
+  color: gray;
+  }
+  
+  /* flip_olock */
+  
+  /* Code AI */
+  
+  
