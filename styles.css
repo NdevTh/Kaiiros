@@ -1,7 +1,7 @@
 *,* ::after, *::before{
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 1.15em;
+  font-size: 3rem;
   }
   
   body{
@@ -9,9 +9,12 @@
       color: #de4242;
   }
   .flip-card{
+    position: relative ;
 display: inline-flex;
 flex-direction: column;
-box-shadow: 0 2px 5px 0 rgba (0,0,0, .5);
+overflow: hidden;
+box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
+border-radius: .1em;
 }
 
 .top, .bottom{
@@ -25,6 +28,7 @@ overflow: hidden;
   background-color: #f7f7f7;
   border-top-right-radius: .1em;
   border-top-left-radius: .1em ;
+  border-bottom: .05px solid rgba(0, 0, 0, .1) ;
   }
   
   .bottom{
@@ -33,4 +37,21 @@ overflow: hidden;
   align-items: flex-end;
   border-bottom-right-radius: .1em;
   border-bottom-left-radius: .1em ;  
+
+  }
+
+  .flip-card.flip::before{
+    padding-top: .25em;
+    line-height: 1;
+    position: absolute ;
+    content: "4";
+    height: 50%; 
+    width: 100%;
+    text-align: center;
+  overflow: hidden ;
+background-color: red;
+}
+
+  .flip-card.flip::after{
+  
   }
