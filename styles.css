@@ -17,7 +17,10 @@ box-shadow: 0 2px 3px 0 rgba(0, 0, 0, .2);
 border-radius: .1em;
 }
 
-.top, .bottom{
+.top,
+.bottom,
+.flip-card.flip::after,
+.flip-card.flip::before {
 height: .75em;
 line-height: 1 ;
 padding: .25em;
@@ -41,15 +44,13 @@ overflow: hidden;
   }
 
   .flip-card.flip::before{
-    padding-top: .25em;
-    line-height: 1;
-    position: absolute ;
+     position: absolute ;
     content: "4";
     height: 50%; 
     width: 100%;
     text-align: center;
   overflow: hidden ;
-background-color: red;
+/* background-color: red; */
 }
 
   .flip-card.flip::after{
