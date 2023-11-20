@@ -1,6 +1,6 @@
-/* *{
+*{
 box-shadow: 0 0 1px red inset;
-} */
+}
 
 body, html {
     height: 100%;
@@ -30,7 +30,11 @@ body, html {
         
       }
   
-    
+    .nav{
+      width: 10vw;
+      padding: 2vw;
+
+    }
     /* Styliser le contenu du footer */
     .footer {
       color: #fff; /* Couleur du texte du footer */
