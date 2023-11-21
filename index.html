@@ -1,23 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flip Counter</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+  <title>Kaiiros</title>
+  
 </head>
+
 <body>
+  <div class="footer">
+        <div class="bubbles" id="bubbles-container">
+        </div>
+      </div>
+  <img src="/img/KaiirosWhite.png" alt="Kaiiros">
+
+  <p title="bientôt" style="color: white;">Nous travaillons actuellement sur notre nouveau site web.</p>
 
 
-<div class="flip-card flip">
-  <div class="top">4
+<h2>Nous sommes aujourd'hui le </h2>
+
+<div id="today">
+  <div class="unit" >
+      <span id="year"class="number">00</span>
+      <label>AA</label>
   </div>
-  <div class="bottom"> 4
+  <div class="unit" >
+      <span id="month"class="number">00</span>
+      <label>MM</label>
+  </div>
+  <div class="unit">
+      <span id="day"class="number">00</span>
+      <label>JJ</label>
   </div>
 </div>
-
-
-
-    <script src="script.js"></script>
+<h2>Et il nous reste encore </h2>
+<div id="compteARebours">
+  <div class="unit" >
+      <span id="jours" class="number">00</span>
+      <label>Jrs</label>
+  </div>
+  <div class="unit" >
+      <span id="heures"class="number">00</span>
+      <label>Heu</label>
+  </div>
+  <div class="unit" >
+      <span id="minutes"class="number">00</span>
+      <label>Min</label>
+  </div>
+  <div class="unit" >
+      <span id="secondes"class="number">00</span>
+      <label>Sec</label>
+  </div>
+</div>
+  <script type="module" src="./script/main.js">
+   
+  </script>
 </body>
+
 </html>
